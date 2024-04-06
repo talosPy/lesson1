@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://kit.fontawesome.com/cee9d9a099.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Comptible" content="ie=edge">
+    <div class="header">
+      <h1 class="title" id="title">Sports Survey</h1>
+      <p class="description" id="description">Please Fill This Form</p>
+    </div>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label">Enter your name: 
+          <input id="name" type="text" placeholder="Full name" required >
+        </label>
+        <label id="email-label">Enter your email: 
+          <input id="email" type="email" placeholder="Mymail@mail.com" required >
+        </label>
+        <label id="number-label">Enter your age: 
+          <input id="number" type="number" min="1" max="120" placeholder="Age" required>
+        </label>
+        <label for="male"> What is your gender:
+          <label>
+            <input name="gender" id="male" value="male" type="radio" class="radio"> Male
+          </label>
+          <label for="female">
+            <input name="gender" id="female" value="female" type="radio" class="radio"> Female
+          </label>
+          <label for="other">
+            <input name="gender" id="other" value="other" type="radio" class="radio"> Other
+          </label>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>What kind of Sport do you like: 
+          <label for="sport-type">
+            <input name="sport-type-R1" id="sport-type" value="fav-game" type="radio" class="radio"> Football 
+          </label>
+          <label for="sport-type-R2">
+            <input name="sport-type-R2" id="sport-type-R2" value="fav-game" type="radio" class="radio"> Tennis
+          </label>
+          <label for="sport-type-R3">
+            <input name="hours-day" id="sport-type-R3" value="fav-game" type="radio" class="radio"> Basketball
+          </label>
+          <label for="sport-type-R4">
+            <input name="hours-day" id="sport-type-R4" value="fav-game" type="radio" class="radio"> Boxing
+          </label>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>What kind of Athlete do you consider yourself to be: 
+          <label for="kind-athlete-R1">
+            <input name="kind-athlete" id="kind-athlete-R1" value="Non-athelete" type="radio" class="radio"> Non-athlete
+          </label>
+          <label for="kind-athlete-R2">
+            <input name="kind-athlete" id="kind-athlete-R2" value="Novice" type="radio" class="radio"> Novice
+          </label>
+          <label for="kind-athlete-R3">
+            <input name="kind-athlete" id="kind-athlete-R3" value="Semi-Pro" type="radio" class="radio"> Semi-Pro
+          </label>
+          <label for="kind-athlete-R4">
+            <input name="kind-athlete" id="kind-athlete-R4" value="Professional" type="radio" class="radio"> Professional
+          </label>
+          <label for="kind-athlete-R5">
+            <input name="kind-athlete" id="kind-athlete-R5" value="World Class" type="radio" class="radio"> World Class
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>How many hours a day do you train:
+          <label for="hours-day-R1">
+            <input name="hours-day" id="hours-day-R1" value="0 - 1" type="radio" class="radio"> 0 - 1
+          </label>
+          <label for="hours-day-R2">
+            <input name="hours-day" id="hours-day-R2" value="1 - 3" type="radio" class="radio"> 1 - 3
+          </label>
+          <label for="hours-day-R3">
+            <input name="hours-day" id="hours-day-R3" value="3 - 5" type="radio" class="radio"> 3 - 5
+          <label for="hours-day-R4">
+            <input name="hours-day" id="hours-day-R4" value="5+" type="radio" class="radio"> 5 + (Well Done Sir)
+          </label>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label for="fav-team">What is your favorite Sports Team:
+          <label>
+            <label for="fav-team-R1">
+                <input name="fav-team" id="fav-team-R1" value="FC Barcelona" type="radio" class="radio"> FC Barcelona
+              </label>
+              <label for="fav-team-R2">
+                <input name="fav-team" id="fav-team-R2" value="Real Madrid" type="radio" class="radio"> Real Madrid
+              </label>
+              <label for="fav-team-R3">
+                <input name="fav-team" id="fav-team-R3" value="LA Lakers" type="radio" class="radio"> LA Lakers
+              <label for="fav-team-R4">
+                <input name="fav-team" id="fav-team-R4" value="Golden State Warriors" type="radio" class="radio"> Golden State Warriors
+              </label>  
+        </label>
+      </fieldset>
+      <input id="submit" type="submit" value="Submit">
+    </form>
+    <p id="credit" name="credit" class="credit">Created by Bururk and Stolen By Talos</p>
+    <p class="credit">Ty To Free Code Camp Project</p>
+  </body>
+</html>

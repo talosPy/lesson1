@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://kit.fontawesome.com/cee9d9a099.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Comptible" content="ie=edge">
+    <div class="header">
+      <h1 class="title" id="title">Game Survey Form</h1>
+      <p class="description" id="description">Please fill out this form with the required information</p>
+    </div>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label">Enter your full name: 
+          <input id="name" type="text" placeholder="Full name" required >
+        </label>
+        <label id="email-label">Enter your email: 
+          <input id="email" type="email" placeholder="Mymail@mail.com" required >
+        </label>
+        <label id="number-label">Enter your age: 
+          <input id="number" type="number" min="13" max="100" placeholder="Age" required>
+        </label>
+        <label for="male"> What is your gender:
+          <label>
+            <input name="gender" id="male" value="male" type="radio" class="radio"> Male
+          </label>
+          <label for="female">
+            <input name="gender" id="female" value="female" type="radio" class="radio"> Female
+          </label>
+          <label for="other">
+            <input name="gender" id="other" value="other" type="radio" class="radio"> Other
+          </label>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>How many hours a day do you play video game: 
+          <label for="hours-day-R1">
+            <input name="hours-day" id="hours-day-R1" value="0-1" type="radio" class="radio"> 0 - 1 
+          </label>
+          <label for="hours-day-R2">
+            <input name="hours-day" id="hours-day-R2" value="1 - 3" type="radio" class="radio"> 1 - 3
+          </label>
+          <label for="hours-day-R3">
+            <input name="hours-day" id="hours-day-R3" value="3 - 5" type="radio" class="radio"> 3 - 5
+          </label>
+          <label for="hours-day-R4">
+            <input name="hours-day" id="hours-day-R4" value="Alot" type="radio" class="radio"> Alot
+          </label>
+          <label for="hours-day-R5">
+            <input name="hours-day" id="hours-day-R5" value="Too much" type="radio" class="radio"> Too much
+          </label>
+          <label for="hours-day-R6">
+            <input name="hours-day" id="hours-day-R6" value="Way too much" type="radio" class="radio"> Way too much
+          </label>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>What kind of gamer do you consider yourself to be: 
+          <label for="kind-gamer-R1">
+            <input name="kind-gamer" id="kind-gamer-R1" value="Non-gamer" type="radio" class="radio"> Non-gamer
+          </label>
+          <label for="kind-gamer-R2">
+            <input name="kind-gamer" id="kind-gamer-R2" value="Casual" type="radio" class="radio"> Casual gamer
+          </label>
+          <label for="kind-gamer-R3">
+            <input name="kind-gamer" id="kind-gamer-R3" value="Gamer" type="radio" class="radio"> Gamer
+          </label>
+          <label for="kind-gamer-R4">
+            <input name="kind-gamer" id="kind-gamer-R4" value="Dedicated-gamer" type="radio" class="radio"> Dedicated gamer
+          </label>
+          <label for="kind-gamer-R5">
+            <input name="kind-gamer" id="kind-gamer-R5" value="PRO-gamer" type="radio" class="radio"> PRO gamer
+          </label>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>How many keyboards/mouses/monitors/controllers have you broken:
+          <label for="broken-R1">
+            <input name="broken" id="broken-R1" value="0" type="radio" class="radio"> 0
+          </label>
+          <label for="broken-R2">
+            <input name="broken" id="broken-R2" value="1 - 3" type="radio" class="radio"> 1 - 3
+          </label>
+          <label for="broken-R3">
+            <input name="broken" id="broken-R3" value="3 - 5" type="radio" class="radio"> 3 - 5
+          </label>
+          <label for="broken-R4">
+            <input name="broken" id="broken-R4" value="I dont want to say" type="radio" class="radio"> I dont want to say
+          </label>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>What is the most important for a good game:
+          <label for="imp-game-C1">
+             <input name="important-game" id="imp-game-C1" value="Story" type="checkbox" class="checkbox"> Story
+          </label>
+          <label for="imp-game-C2">
+             <input name="important-game" id="imp-game-C2" value="Controls" type="checkbox" class="checkbox"> Controls
+          </label>
+          <label for="imp-game-C3">
+             <input name="important-game" id="imp-game-C3" value="Visual style/Effects" type="checkbox" class="checkbox"> Visual style/Effects
+          </label>
+          <label for="imp-game-C4">
+             <input name="important-game" id="imp-game-C4" value="Sound/music" type="checkbox" class="checkbox"> Sound/music
+          </label>
+          <label for="imp-game-C5">
+             <input name="important-game" id="imp-game-C5" value="World buliding" type="checkbox" class="checkbox"> World buliding
+          </label>
+          <label for="imp-game-C6">
+             <input name="important-game" id="imp-game-C6" value="Characters" type="checkbox" class="checkbox"> Characters
+          </label>
+          <label for="imp-game-C7">
+             <input name="important-game" id="imp-game-C7" value="Challenge" type="checkbox" class="checkbox"> Challenge
+          </label>
+          <label for="imp-game-C8">
+             <input name="important-game" id="imp-game-C8" value="other" type="checkbox" class="checkbox"> Other
+          </label>
+        </label>
+      </fieldset>
+       <fieldset>
+        <label>How important Sport is to your Life:
+          <label for="fav-gen-C1">
+             <input name="favorite-genres" id="fav-gen-C1" value="Action" type="checkbox" class="checkbox"> Action
+          </label>
+          <label for="fav-gen-C2">
+             <input name="favorite-genres" id="fav-gen-C2" value="Adventure" type="checkbox" class="checkbox"> Adventure
+          </label>
+          <label for="fav-gen-C3">
+             <input name="favorite-genres" id="fav-gen-C3" value="Action-adventure" type="checkbox" class="checkbox"> Action-adventure
+          </label>
+          <label for="fav-gen-C4">
+             <input name="favorite-genres" id="fav-gen-C4" value="Role-playing" type="checkbox" class="checkbox"> Role-playing
+          </label>
+          <label for="fav-gen-C5">
+             <input name="favorite-genres" id="fav-gen-C5" value="Strategy" type="checkbox" class="checkbox"> Strategy
+          </label>
+          <label for="fav-gen-C6">
+             <input name="favorite-genres" id="fav-gen-C6" value="Simulation" type="checkbox" class="checkbox"> Simulation
+          </label>
+          <label for="fav-gen-C7">
+             <input name="favorite-genres" id="fav-gen-C7" value="Puzzle" type="checkbox" class="checkbox"> Puzzle
+          </label>
+          <label for="fav-gen-C8">
+             <input name="favorite-genres" id="fav-gen-C8" value="Sports" type="checkbox" class="checkbox"> Sports
+          </label>
+          <label for="fav-gen-C9">
+             <input name="favorite-genres" id="fav-gen-C9" value="Racing" type="checkbox" class="checkbox"> Racing
+          </label>
+          <label for="fav-gen-C10">
+             <input name="favorite-genres" id="fav-gen-C10" value="Idle games" type="checkbox" class="checkbox"> Idle games
+          </label>
+          <label for="fav-gen-C11">
+             <input name="favorite-genres" id="fav-gen-C11" value="other" type="checkbox" class="checkbox"> Other
+          </label>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label for="fav-game">What is your favorite game:
+          <label>
+            <input id="fav-game" name="fav-game" type="text" required placeholder="Your favorite game">
+          </label>
+          <label for="fav-game-elab">Can you elaborate:
+            <textarea id="fav-game-elab" name="fav-game" placeholder="I like this game because..."></textarea>
+          </label>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label id="dropdown-label">How did you hear about us: 
+          <select id="dropdown" name="dropdown" required>
+            <option value="">(select one)</option>
+            <option value="friend">friend</option>
+            <option value="social media">social media</option>
+            <option value="advertisement">advertisement</option>
+            <option value="other">other</option>
+          </select>
+          <label for="web-imp">Website improvement suggestions:
+            <textarea id="web-imp" name="web-improvement" placeholder="Please help us improve our website"></textarea>
+          </label>
+        </label>
+        <label for="terms">
+          <input name="terms and conditions" id="terms" type="radio" class="radio" required> I agree to the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a> and <a href="https://www.freecodecamp.org/news/privacy-policy/">privacy policies</a>
+        </label>
+      </fieldset>
+      <input id="submit" type="submit" value="Submit">
+    </form>
+    <p id="credit" name="credit" class="credit">Created by Bururk</p>
+    <p class="credit">Free Code Camp Project</p>
+    <footer>
+      <div class="icons">
+        <button>
+          <a class="icon-fcc" href="https://www.freecodecamp.org/Bruruk" title="Free Code Camp Profile" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-free-code-camp fa-3x"></i></a>
+        </button>
+      </div>
+    </footer>
+  </body>
+</html>
